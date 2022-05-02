@@ -1,9 +1,8 @@
 <?php
-$servername="10.124.0.2";
+$servername="localhost";
 $username="root";
 $password="Jerbo401*";
 $dbname="Jerbo";
-
 
 $Name=$_POST['Name']
 $Lastname=$_POST['Lastname']
@@ -16,9 +15,6 @@ $MusicG=$_POST['MusicG']
 $Protection=$_POST['Protection']
 $Salud=$_POST['Salud']
 
-
-
-
 $conn=new mysqli($servername,$username,$password,$dbname);
 if($conn-> connect_error){
     die ("connection failed: ". $conn->connect_error);
@@ -30,14 +26,5 @@ if($conn-> connect_error){
     echo "the answers have been registered"
     $stmt->close();
     $conn->close();
-    
-      
-
 }
-
-
-
-
-
-
 ?>
