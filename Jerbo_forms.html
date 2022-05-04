@@ -10,15 +10,15 @@
                 
                 <h1 class="h1">Jerbo</h1>
                 <div class="forms">
-                <form action="jerboforms.php" method="post">
+                <form action="contact.php" method="post">
                     <!--idioma -->
                     <label for="Name">Whats your name? :</label>
-                    <input class="pregunta" type="text" id="Name" ><br></br>
+                    <input class="pregunta" type="text" name="Name" required><br></br>
 
 
                     
                     <label for="Lastname">Whats your lastname? :</label>
-                    <input class="pregunta" type="text" id="Lastname" ><br></br>
+                    <input class="pregunta" type="text" name="Lastname" required ><br></br>
 
 
 
@@ -26,7 +26,7 @@
 
 
                     <label  for="Language">what is your first language ?:</label>
-                        <select class="pregunta" id="Language">
+                        <select class="pregunta" name="Language" required>
                             <option value="Mandarin">Mandarin</option>
                             <option value="Spanish"> Spanish</option>
                             <option	value="English">English	</option>
@@ -122,7 +122,7 @@
                         </select><br></br>
                     <!--pais -->
                         <label for="Country">Select your country  :</label>
-                        <select class="pregunta" id="Country">
+                        <select class="pregunta" name="Country" required>
                             <option	value="	Afghanistan	"	>	Afghanistan	</option>
                             <option	value="	Albania	"	>	Albania	</option>
                             <option	value="	Algeria	"	>	Algeria	</option>
@@ -322,19 +322,19 @@
                         
                         <!--edad-->
                         <label for="Age">Whats your age? :</label>
-                            <input class="pregunta" type="number" id="Age" ><br></br>
+                            <input class="pregunta" type="number" name="Age" required><br></br>
 
 
                         <label for="Gender">Whats your gender? :</label>
 
-                        <select class= "pregunta" id="Gender">
+                        <select class= "pregunta" name="Gender">
                             <option value="Male"> Male</option>
                             <option value="Female"> Female</option>
                             <option value="Other"> Other</option>
                         </select><br></br>
 
                     <label for="Education">Whats your level of education? :</label>
-                        <select class="pregunta" id ="Education">
+                        <select class="pregunta" name ="Education" required>
                             <option	value="	primary education	"	>	primary education	</option>
                             <option	value="	lower secondary education	"	>	lower secondary education	</option>
                             <option	value="	upper secondary education	"	>	upper secondary education	</option>
@@ -349,7 +349,7 @@
 
                     <label for="MusicG">Whats your favorite music genre  :</label>
                         
-                        <select class="pregunta" id ="MusicG">
+                        <select class="pregunta" name ="MusicG" required>
                                 <option	value="	Pop	"	>	Pop	</option>
                                 <option	value="	Dubstep	"	>	Dubstep	</option>
                                 <option	value="	Metal	"	>	Metal	</option>
@@ -363,19 +363,19 @@
                         
                         <label for="Salud">Do you have some form of hearing imparience or condition? :</label>
 
-                        <select class="pregunta" id ="Salud">
+                        <select class="pregunta" name ="Salud" required>
                                     <option	value="Yes"	>Yes</option>
                                     <option value="No">No</option>
                                     </select><br></br>
                                     <label for="pregunta6">Do you usually take care of your hearing ?:</label>
-                                    <select class="pregunta" id ="Protection">
+                                    <select class="pregunta" name ="Protection">
                                     <option	value="Yes"	>Yes</option>
                                     <option value="No">No</option>
                                     <option value ="Sometimes">Sometimes</option>
                                     
                         </select><br></br>
                         
-                            <input class="button" type="submit" value="GO"/>
+                            <input class="button" type="submit" value="Register"/>
 
                 
 
