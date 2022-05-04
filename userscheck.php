@@ -3,8 +3,8 @@
 
 $servername="localhost";
 $username="root";
-$password="";
-$dbname="jerbo";
+$password="Jerbo401*";
+$dbname="Jerbo";
 
 $usuario = $_POST["usuario"];
 $contraseña = $_POST["contraseña"];

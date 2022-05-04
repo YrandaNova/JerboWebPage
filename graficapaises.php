@@ -1,5 +1,5 @@
 <?php  
- $connect = mysqli_connect("localhost", "root", "", "jerbo");  
+ $connect = mysqli_connect("localhost", "root", "Jerbo401*", "Jerbo");  
  $query = "SELECT country, count(*) as number FROM infousuarios GROUP BY country";  
  $result = mysqli_query($connect, $query);  
  ?>  
